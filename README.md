@@ -74,7 +74,7 @@ Random Bits → Modulation (BPSK / QPSK / 16-QAM) → AWGN Channel → Demodulat
 ### Stage 2 — BPSK Modulation
 `Stage2_BPSK_Modulation.m`
 
-![Stage 2](figures/stage2_bpsk_symbols.png)
+![Stage 2](figures/Stage2_BPSK_Symbols.png)
 
 *BPSK modulation: each bit is mapped to a symbol of +1 or −1.*
 
@@ -83,7 +83,7 @@ Random Bits → Modulation (BPSK / QPSK / 16-QAM) → AWGN Channel → Demodulat
 ### Stage 3 — AWGN Channel
 `Stage3_AWGN_Channel.m`
 
-![Stage 3](figures/stage3_awgn_effect.png)
+![Stage 3](figures/Stage3_AWGN_Effect.png)
 
 *Effect of Additive White Gaussian Noise (AWGN) on the transmitted BPSK signal at SNR = 5 dB — comparing the original and received symbols.*
 
